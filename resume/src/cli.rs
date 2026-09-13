@@ -85,7 +85,7 @@ pub enum EntryCommands {
     /// - 内容
     /// ```
     Add {
-        /// 条目名称（存储为 <name>.md，后续通过此名称编辑/删除）。建议使用详细命名，便于 AI 理解。
+        /// 条目名称（存储为 `<name>.md`，后续通过此名称编辑/删除）。建议使用详细命名，便于 AI 理解。
         name: String,
 
         /// 源 Markdown 文件路径（含 YAML frontmatter）
